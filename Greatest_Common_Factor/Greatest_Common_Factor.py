@@ -1,4 +1,6 @@
-# Greatest Common Factors
+#############################
+## Greatest Common Factors ##
+#############################
 
 def is_prime(number):
     if number > 1:
@@ -45,3 +47,11 @@ def find_GCF(list_of_numbers):
             common_factors += [number]
 
     return max(common_factors)
+
+
+####################
+## Testing Script ##
+####################
+
+number_list = [44, 88, 96, 128]
+print(f"The greatest common factor is {find_GCF(number_list)}")
