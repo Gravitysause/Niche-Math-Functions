@@ -16,7 +16,7 @@ def is_prime(number):
             return True
     
     return False
-
+    
 
 def check_factors(number):
     factor_list = []
@@ -53,5 +53,5 @@ def find_GCF(list_of_numbers):
 ## Testing Script ##
 ####################
 
-number_list = [44, 88, 96, 128]
-print(f"The greatest common factor is {find_GCF(number_list)}")
+"""number_list = [44, 88, 96, 128]
+print(f"The greatest common factor is {find_GCF(number_list)}")"""
